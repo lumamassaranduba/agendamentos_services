@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f9f9f6;
+    color: #f2067c;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+main {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.form-container, .preview-card {
+    background: rgba(242, 4, 139, 0.848);
+    padding: 20px;
+    border-radius: 8px; /* Efeito CSS3 [11] */
+    box-shadow: 0 2px 10px rgba(229, 14, 111, 0.1);
+    margin-bottom: 20px;
+    color: #f4f2f3;
+}
+
+.field {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+    box-sizing: border-box; 
+}
+
+.preview-card {
+    border-left: 5px solid #e60e8c;
+    transition: transform 0.3s ease;
+}
+
+.preview-card.active {
+    background-color: #e8f4fd;
+    transform: scale(1.02);
+}
